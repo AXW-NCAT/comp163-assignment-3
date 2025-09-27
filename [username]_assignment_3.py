@@ -39,7 +39,24 @@ elif input == "C":
 else:
   print("Please choose another option")
         
-  
+git add [username]_assignment_3.py
+git commit -m "Pass Test Case 2: Course planning with if/elif/else and comparison operators"
+
+# Decision 2
+
+study_options = ["Programming", "Calculus", "English","History"]
+study_choice = input()
+if study_choice not in study_options:
+    print("Error")
+else:
+    print("study_choice")
+if social_points > 100 or current_gpa < 2.5:
+    print("You need to stay in tonight to lock in on school work.")
+if social_points < 5 and current_gpa > 3.5:
+  print("You may need to get out just a bit more but not too much because your gpa is amazing right now.")
+if social_points > 20 and social_points < 75:
+  if current_gpa >= 3.2:
+    print("You have a great ballance")
 
 
 
