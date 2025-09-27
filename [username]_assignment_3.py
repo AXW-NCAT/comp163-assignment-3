@@ -58,6 +58,27 @@ if social_points > 20 and social_points < 75:
   if current_gpa >= 3.2:
     print("You have a great ballance")
 
+# Final Decision
+final_gpa = 3.7
+community = 21
+hours = 20
+if stress_level > 100:
+    print("You had to drop a class")
+    if current_gpa is not final_gpa:
+        print("Go to tutoring")
+    elif social_points is community:
+        print("You've got plenty of friends")
+    elif study_hours is hours:
+        print("Wow, that's a lot of time")
+    else:
+        print("IDK")
+
+print(current_gpa)
+print(study_hours)
+print(social_points)
+print(stress_level)
+
+
 
 
 
